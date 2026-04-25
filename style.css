@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  color: red;
+  font-size: 28px;
+}
+
+.sign-in {
+  background: red;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.banner {
+  background: url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4") center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.content h2 {
+  font-size: 40px;
+}
+
+.btn {
+  background: red;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.movies {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.row img {
+  width: 200px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+}
